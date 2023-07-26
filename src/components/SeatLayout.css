@@ -1,0 +1,37 @@
+.seat-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .seat {
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    line-height: 50px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .available {
+    background-color: #e0f7e0;
+  }
+  
+  .selected {
+    background-color: green;
+    color: white;
+  }
+  
+  .price {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
